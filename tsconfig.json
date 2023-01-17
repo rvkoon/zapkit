@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "downlevelIteration": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@Tests": ["modules/tests"],
+      "@Ui": ["modules/ui"],
+      "@Api": ["modules/api"],
+      "@Signup": ["modules/signup"],
+      "@Navigation": ["modules/navigation"],
+      "@Profile": ["modules/profile"],
+      "@Store": ["modules/store"],
+      "@Home": ["modules/home"],
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "plopfile.js"],
+  "exclude": ["node_modules"]
+}

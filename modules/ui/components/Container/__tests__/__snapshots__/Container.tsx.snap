@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component should render correctly 1`] = `
+<div>
+  <div
+    class="w-full md:w-container m-auto"
+  >
+    <div />
+  </div>
+</div>
+`;

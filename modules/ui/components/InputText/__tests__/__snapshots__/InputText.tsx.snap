@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputText component should render correctly 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-1"
+  >
+    <input
+      class="min-h-4 bg-primary-blue-extra-light rounded-base py-1 px-2 focus:outline-primary-blue placeholder:text-[14px]"
+      name="name"
+      placeholder="placeholder"
+      value="value"
+    />
+  </div>
+</div>
+`;
