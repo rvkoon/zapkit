@@ -36,7 +36,7 @@ function DesktopNav() {
   const { asPath } = useRouter();
 
   return (
-    <nav className="p-25 w-max flex flex-col fixed top-0 left-0">
+    <nav className="w-max mt-25 flex flex-col fixed top-0 left-0">
       {Object.values(DESKTOP_NAV_ROUTES).map((route: AppRoute) => {
         const isActive = route.PATH === asPath.split("?")[0];
         return (
@@ -44,13 +44,13 @@ function DesktopNav() {
             key={route.LABEL}
             href={route.PATH}
             className={cx(
-              "text-white py-15 px-2 flex gap-15 opacity-50 font-bold",
-              isActive && "bg-black bg-opacity-20 rounded-base opacity-100"
+              "text-white py-15 p-25 px-2 flex items-center min-h-10 gap-15 opacity-50 font-bold",
+              isActive && "bg-purple bg-opacity-20 rounded-r-base opacity-100"
             )}
           >
             <>
               {isActive && (
-                <div className="w-3 h-3 bg-[#86709A] rounded-full"></div>
+                <div className="w-3 h-35 bg-pink-light rounded-[6px] rotate-[20deg] "></div>
               )}
               {t(route.LABEL)}
             </>

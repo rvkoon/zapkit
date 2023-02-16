@@ -4,40 +4,8 @@
     "store": "Magasin",
     "profile": "Profil"
   },
-  "signUp": {
-    "pageTitle": "Créer un compte",
-    "form": {
-      "fields": {
-        "email": {
-          "label": "Email",
-          "placeholder": "sam.fisher@mail.com",
-          "errors": {
-            "empty": "Merci de rentrer votre email",
-            "invalid": "Email invalide. Il doit respecter le format xxx@xxx.xx",
-            "exists": "Un compte associé à cet email existe déjà."
-          }
-        },
-        "password": {
-          "label": "Mot de passe",
-          "placeholder": "••••••••",
-          "errors": {
-            "empty": "Merci de créer un mot de passe",
-            "tooShort": "Mot de passe trop court"
-          }
-        }
-      },
-      "submit": {
-        "label": "Créer mon compte"
-      }
-    }
-  },
-  "profile": {
-    "pageTitle": "Profil"
-  },
-  "store": {
-    "pageTitle": "Magasin"
-  },
   "home": {
-    "pageTitle": "Accueil"
+    "pageTitle": "Welcome on Shamallow",
+    "pageDescription": "Shamallow is a NextJs starter kit featuring tailwindcss, typescript, i18n, jest, tanstack, and more."
   }
 }

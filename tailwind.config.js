@@ -10,6 +10,8 @@ module.exports = {
         "text-primary": "#384055",
         "text-secondary": "#FFF",
         "text-light": "#9C9FAA",
+        purple: "#1C102C",
+        "pink-light": "#F1CFF4",
       },
       spacing: {
         05: "4px",
