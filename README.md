@@ -1,5 +1,3 @@
-# FDJ-DRAW-EARN APP
-
 ### Install
 
 Install with `yarn install`
