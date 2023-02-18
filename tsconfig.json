@@ -23,8 +23,9 @@
     "baseUrl": ".",
     "paths": {
       "@Tests": ["modules/tests"],
-      "@Ui": ["modules/ui"],
       "@Api": ["modules/api"],
+"@Ui": ["modules/ui"],
+"@Profile": ["modules/profile"],
 /*PlopSlot*/
     }
   },
