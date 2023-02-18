@@ -1,3 +1,5 @@
+// Do not remove PlopSlot, it is used by plop to add new paths
+
 {
   "compilerOptions": {
     "target": "es5",
@@ -23,7 +25,6 @@
       "@Tests": ["modules/tests"],
       "@Ui": ["modules/ui"],
       "@Api": ["modules/api"],
-"@Profile": ["modules/profile"],
 /*PlopSlot*/
     }
   },
