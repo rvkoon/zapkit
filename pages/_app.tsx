@@ -4,8 +4,6 @@ import type { AppProps } from "next/app";
 import { QueryClientProvider } from "react-query";
 import { queryClient } from "@Api";
 import { NextIntlProvider } from "next-intl";
-import { Layout } from "@Ui";
-import "modules/ui/globals.scss";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -17,9 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
       `}</style>
       <QueryClientProvider client={queryClient}>
         <NextIntlProvider messages={pageProps.messages}>
-          <Layout withNavigation={pageProps.withNavigation ?? true}>
-            <Component {...pageProps} />
-          </Layout>
+          <Component {...pageProps} />
         </NextIntlProvider>
       </QueryClientProvider>
     </>

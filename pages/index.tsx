@@ -1,6 +1,8 @@
 import type { GetStaticPropsContext } from "next";
-import { HomePage } from "@Home";
-export default HomePage;
+
+export default function IndexPage() {
+  return <h1>Hello World</h1>;
+}
 
 export async function getStaticProps({ locale }: GetStaticPropsContext) {
   return {
