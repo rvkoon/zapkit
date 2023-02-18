@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --passWithNoTests",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "generate": "plop"
   },
   "dependencies": {
     "@next/font": "13.1.1",
@@ -41,7 +42,7 @@
     "husky": "^8.0.3",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
-    "plop": "^3.1.1",
+    "plop": "^3.1.2",
     "tailwindcss": "^3.2.4"
   }
 }

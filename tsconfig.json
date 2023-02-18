@@ -23,13 +23,10 @@
       "@Tests": ["modules/tests"],
       "@Ui": ["modules/ui"],
       "@Api": ["modules/api"],
-      "@Signup": ["modules/signup"],
-      "@Navigation": ["modules/navigation"],
-      "@Profile": ["modules/profile"],
-      "@Store": ["modules/store"],
-      "@Home": ["modules/home"],
+"@Profile": ["modules/profile"],
+/*PlopSlot*/
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "plopfile.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
