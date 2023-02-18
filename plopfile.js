@@ -1,5 +1,9 @@
+const Plop = require("./plop");
+
 module.exports = function (/** @type {import('plop').NodePlopAPI} */ plop) {
-  // ****************** UI COMPONENT ****************** //
+  Plop.generators.forEach((generator) => {
+    plop.setGenerator(generator.generatorName, generator.config);
+  });
 
   plop.setGenerator("generate:ui:component", {
     description:
