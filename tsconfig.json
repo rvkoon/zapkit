@@ -25,7 +25,6 @@
       "@Tests": ["modules/tests"],
       "@Api": ["modules/api"],
 "@Ui": ["modules/ui"],
-"@Profile": ["modules/profile"],
 /*PlopSlot*/
     }
   },
