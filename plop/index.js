@@ -1,6 +1,7 @@
-const moduleConfig = require("./generators/module.js");
-const componentConfig = require("./generators/component.js");
+const moduleGenerator = require("./generators/module.js");
+const componentGenerator = require("./generators/component.js");
+const pageGenerator = require("./generators/page.js");
 
 module.exports = {
-  generators: [moduleConfig, componentConfig],
+  generators: [moduleGenerator, componentGenerator, pageGenerator],
 };

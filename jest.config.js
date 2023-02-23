@@ -9,9 +9,9 @@ const customJestConfig = {
   moduleDirectories: ["node_modules", "<rootDir>/"],
   testEnvironment: "jest-environment-jsdom",
   moduleNameMapper: {
-    "^@Ui$": "modules/ui",
-    "^@Tests$": "modules/tests",
-    "^@Api$": "modules/api",
+    "^@Api$": "src/api",
+    "^@Tests$": "src/modules/tests",
+    "^@Ui$": "src/modules/ui",
   },
 };
 

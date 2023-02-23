@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app";
-import { queryClient } from "@Api";
+import { queryClient } from "src/api";
 import { NextIntlProvider } from "next-intl";
 import { QueryClientProvider } from "react-query";
 

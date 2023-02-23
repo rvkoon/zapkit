@@ -8,7 +8,7 @@ interface IIntlMockProps {
 export function IntlMock({ children }: IIntlMockProps): ReactElement {
   const useRouter = jest.spyOn(require("next/router"), "useRouter");
   const locale = "en";
-  const messages = require(`../../../public/messages/${locale}.json`);
+  const messages = require(`../../../../public/messages/${locale}.json`);
 
   useRouter.mockImplementationOnce(() => ({
     query: { locale: locale },
