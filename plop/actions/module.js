@@ -40,4 +40,10 @@ module.exports = [
     pattern: /\/\*PlopSlot\*\//,
     template: `"@{{pascalCase moduleName}}": ["src/modules/{{moduleName}}"],\n/*PlopSlot*/`,
   },
+  {
+    type: "modify",
+    path: "jest.config.js",
+    pattern: /\/\*PlopSlot\*\//,
+    template: `"^@{{pascalCase moduleName}}$": "src/modules/{{moduleName}}",\n/*PlopSlot*/`,
+  },
 ];

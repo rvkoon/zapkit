@@ -1,5 +1,5 @@
-const moduleActions = require("./actions/module");
-const componentActions = require("./actions/component");
+const moduleActions = require("../actions/module");
+const componentActions = require("../actions/component");
 
 module.exports = {
   generatorName: "generate:page",

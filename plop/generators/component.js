@@ -1,6 +1,6 @@
 const fs = require("fs");
 const files = fs.readdirSync("src/modules/");
-const componentAcions = require("./actions/component");
+const componentAcions = require("../actions/component");
 
 module.exports = {
   generatorName: "generate:component",

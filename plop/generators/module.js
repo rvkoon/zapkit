@@ -1,4 +1,4 @@
-const moduleActions = require("./actions/module");
+const moduleActions = require("../actions/module");
 
 module.exports = {
   generatorName: "generate:module",

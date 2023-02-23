@@ -1,3 +1,5 @@
+// Do not remove PlopSlot, it is used by plop to add new paths
+
 const nextJest = require("next/jest");
 
 const createJestConfig = nextJest({
@@ -12,6 +14,7 @@ const customJestConfig = {
     "^@Api$": "src/api",
     "^@Tests$": "src/modules/tests",
     "^@Ui$": "src/modules/ui",
+    /*PlopSlot*/
   },
 };
 
