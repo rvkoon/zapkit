@@ -50,7 +50,7 @@ module.exports = {
         path: "tsconfig.json",
         pattern: /\/\*PlopSlot\*\//,
         template:
-          '"@{{pascalCase moduleName}}": ["modules/{{moduleName}}"],\n/*PlopSlot*/',
+          '"@{{pascalCase moduleName}}": ["src/modules/{{moduleName}}"],\n/*PlopSlot*/',
       },
     ],
   },

@@ -12,8 +12,6 @@ const customJestConfig = {
     "^@Ui$": "modules/ui",
     "^@Tests$": "modules/tests",
     "^@Api$": "modules/api",
-    "^@Signup$": "modules/signup",
-    "^@Navigation$": "modules/navigation",
   },
 };
 

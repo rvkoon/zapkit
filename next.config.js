@@ -6,9 +6,6 @@ const nextConfig = {
     defaultLocale: "fr",
     localeDetection: true,
   },
-  env: {
-    API_URL_DEVELOPMENT: process.env.API_URL_DEVELOPMENT,
-  },
 };
 
 module.exports = nextConfig;
