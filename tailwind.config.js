@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./modules/**/*.{js,ts,jsx,tsx}"],
+  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
+  plugins: [require("daisyui")],
   theme: {
     extend: {
       spacing: {
@@ -27,5 +28,4 @@ module.exports = {
       },
     },
   },
-  plugins: [require("daisyui")],
 };

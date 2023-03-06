@@ -14,7 +14,8 @@ const customJestConfig = {
     "^@Api$": "src/api",
     "^@Tests$": "src/modules/tests",
     "^@Ui$": "src/modules/ui",
-    /*PlopSlot*/
+    "^@Home$": "src/modules/Home",
+/*PlopSlot*/
   },
 };
 

@@ -1,43 +1,6 @@
 {
-  "navigation": {
-    "home": "Home",
-    "store": "Store",
-    "profile": "Profile"
-  },
-  "signUp": {
-    "pageTitle": "Create an account",
-    "form": {
-      "fields": {
-        "email": {
-          "label": "Email",
-          "placeholder": "sam.fisher@mail.com",
-          "errors": {
-            "empty": "Please enter your email",
-            "invalid": "Invalid email format. please respect the following pattern : xxx@xxx.xx",
-            "exists": "An account with this email already exists."
-          }
-        },
-        "password": {
-          "label": "Password",
-          "placeholder": "••••••••",
-          "errors": {
-            "empty": "Please create a password",
-            "tooShort": "Password too short"
-          }
-        }
-      },
-      "submit": {
-        "label": "Create my account"
-      }
-    }
-  },
-  "profile": {
-    "pageTitle": "Profile"
-  },
-  "store": {
-    "pageTitle": "Store"
-  },
   "home": {
-    "pageTitle": "Home"
+    "pageTitle": "Welcome to ZapKit 👋",
+    "pageDescription": "ZapKit is a NextJs starter kit featuring tailwindcss, typescript, i18n, jest, tanstack, and more. \n It's gonna help you starting your new project ultra fast, without thinking about config concerns."
   }
 }
